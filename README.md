@@ -21,6 +21,12 @@ Build a to-do app.
 
 - Node.js (v14 LTS or higher)
 - Next.js (v13+)
+## Run the project
+```bash
+
+npm install
+npm run dev
+```
 
 ## Run the backend server
 
