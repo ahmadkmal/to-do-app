@@ -1,0 +1,16 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "[![license](https://img.shields.io/badge/License-MIT-purple.svg?style=?style=flat-square)](LICENSE) [![database](https://img.shields.io/badge/-14.16.0-white.svg?style=?style=flat-square&logo=node.js)](DATABASE) [![database](https://img.shields.io/badge/Build-Success-brightgreen.svg?style=?style=flat-square&logo=appveyor&logo=mysql)](BUILD)",
+  "main": "index.js",
+  "workspaces": [ "packages/server", "packages/to-do-next" ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"concurrently \"cd packages/server && npm run start\" \"cd packages/to-do-next && npm run dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.2.0"
+  }
+}

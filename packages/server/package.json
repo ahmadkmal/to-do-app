@@ -1,12 +1,13 @@
 {
-  "name": "nuxt-st01",
+  "name": "server",
   "version": "1.0.0",
   "description": "Test project for nuxtjs developers",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
   },
   "author": "Mahmoud Kassem",
   "license": "ISC",
